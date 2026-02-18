@@ -106,3 +106,19 @@ So both volume/price conditions and the score threshold must be satisfied.
 ## 10. Graceful shutdown
 
 Press **Ctrl+C** in the terminal to stop the server. The script uses a signal handler for a clean exit.
+
+## 11. Deploy on Render
+
+1. **Add to your repo**: `wsgi.py`, and ensure `gunicorn` is in `requirements.txt` (it is).
+2. **Build command** (in Render Dashboard → Service → Build & Deploy):
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Start command** (replace the default `gunicorn your_application.wsgi`):
+   ```bash
+   gunicorn --bind 0.0.0.0:$PORT wsgi:app
+   ```
+   `$PORT` is set by Render. The app is exposed as `app` in `wsgi.py`.
+4. **Root directory**: If your service is not at repo root, set “Root Directory” to the folder that contains `wsgi.py`, `config.json`, `requirements.txt`, and `stocks_list.json`.
+5. **Config**: Add `config.json` and `stocks_list.json` via Render **Environment** (e.g. paste contents into secret files) or commit them (without real passwords). Prefer **Environment variables** for `email_id` / `email_pass` if Render supports it, or use a build step that writes `config.json` from env.
+6. Optional: use the included `render.yaml` as a blueprint; the start command there is already correct.
