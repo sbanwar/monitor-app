@@ -1,0 +1,10 @@
+{
+  "stocks_list_file": "stocks_list.json",
+  "watchlist": ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "HINDUNILVR.NS", "ICICIBANK.NS", "KOTAKBANK.NS", "BHARTIARTL.NS", "ITC.NS", "SBIN.NS", "ASIANPAINT.NS", "LT.NS", "AXISBANK.NS", "MARUTI.NS", "SUNPHARMA.NS", "TITAN.NS", "NESTLEIND.NS", "ULTRACEMCO.NS", "WIPRO.NS", "HCLTECH.NS"],
+  "email_id": "",
+  "email_pass": "",
+  "recipient": "",
+  "volume_threshold": 1.5,
+  "price_threshold": 2,
+  "check_interval_min": 10
+}

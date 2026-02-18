@@ -1,0 +1,1630 @@
+2026-02-14 21:57:18 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 21:57:18 [DEBUG] Entering history()
+2026-02-14 21:57:18 [INFO] Failed to create TzCache, reason: Cannot read and write in TzCache folder: '/Users/apple/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-02-14 21:57:18 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:18 [DEBUG]   Entering get()
+2026-02-14 21:57:18 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:18 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS
+2026-02-14 21:57:18 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:18 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:18 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:18 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:18 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:18 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:18 [INFO] Failed to create CookieCache, reason: Cannot read and write in CookieCache folder: '/Users/apple/Library/Caches/py-yfinance'. CookieCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-02-14 21:57:18 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:19 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:19 [DEBUG]        Entering _get_cookie_basic()
+2026-02-14 21:57:19 [DEBUG]         Entering _load_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]         Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]         Entering _save_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]         Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:19 [DEBUG]        Exiting _get_cookie_basic()
+2026-02-14 21:57:19 [DEBUG] crumb = 'npjN37EJmk/'
+2026-02-14 21:57:19 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:19 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:19 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:20 [DEBUG] response code=200
+2026-02-14 21:57:20 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:20 [DEBUG]   Exiting get()
+2026-02-14 21:57:20 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:20 [DEBUG]  Entering history()
+2026-02-14 21:57:20 [DEBUG] RELIANCE.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:20 [DEBUG]   Entering get()
+2026-02-14 21:57:20 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:20 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS
+2026-02-14 21:57:20 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:20 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:20 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:20 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:20 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:20 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:20 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:21 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:21 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:21 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:21 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:21 [DEBUG] reusing crumb
+2026-02-14 21:57:21 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:21 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:21 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:21 [DEBUG] response code=200
+2026-02-14 21:57:21 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:21 [DEBUG]   Exiting get()
+2026-02-14 21:57:21 [DEBUG] RELIANCE.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:21 [DEBUG] RELIANCE.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:21 [DEBUG] RELIANCE.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:21 [DEBUG] RELIANCE.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:21 [DEBUG]  Exiting history()
+2026-02-14 21:57:21 [DEBUG] Exiting history()
+2026-02-14 21:57:31 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 21:57:31 [INFO] Starting trend check at 2026-02-14 21:57:31
+2026-02-14 21:57:31 [DEBUG] Entering history()
+2026-02-14 21:57:31 [INFO] Failed to create TzCache, reason: Cannot read and write in TzCache folder: '/Users/apple/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-02-14 21:57:31 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:31 [DEBUG]   Entering get()
+2026-02-14 21:57:31 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:31 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS
+2026-02-14 21:57:31 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:31 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:31 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:31 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:31 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:31 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:31 [INFO] Failed to create CookieCache, reason: Cannot read and write in CookieCache folder: '/Users/apple/Library/Caches/py-yfinance'. CookieCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-02-14 21:57:31 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:31 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:31 [DEBUG]        Entering _get_cookie_basic()
+2026-02-14 21:57:31 [DEBUG]         Entering _load_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]         Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]         Entering _save_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]         Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:31 [DEBUG]        Exiting _get_cookie_basic()
+2026-02-14 21:57:33 [DEBUG] crumb = '2U6i3DSRCLp'
+2026-02-14 21:57:33 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:33 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:33 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:33 [DEBUG] response code=200
+2026-02-14 21:57:33 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:33 [DEBUG]   Exiting get()
+2026-02-14 21:57:33 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:33 [DEBUG]  Entering history()
+2026-02-14 21:57:33 [DEBUG] RELIANCE.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:33 [DEBUG]   Entering get()
+2026-02-14 21:57:33 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:33 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS
+2026-02-14 21:57:33 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:33 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:33 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:33 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:33 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:33 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:33 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:34 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:34 [DEBUG] reusing crumb
+2026-02-14 21:57:34 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:34 [DEBUG] response code=200
+2026-02-14 21:57:34 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:34 [DEBUG]   Exiting get()
+2026-02-14 21:57:34 [DEBUG] RELIANCE.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:34 [DEBUG] RELIANCE.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:34 [DEBUG] RELIANCE.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:34 [DEBUG] RELIANCE.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:34 [DEBUG]  Exiting history()
+2026-02-14 21:57:34 [DEBUG] Exiting history()
+2026-02-14 21:57:34 [DEBUG] Entering history()
+2026-02-14 21:57:34 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:34 [DEBUG]   Entering get()
+2026-02-14 21:57:34 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:34 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/TCS.NS
+2026-02-14 21:57:34 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:34 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:34 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:34 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:34 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:34 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:34 [DEBUG] reusing crumb
+2026-02-14 21:57:34 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:34 [DEBUG] response code=200
+2026-02-14 21:57:34 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:34 [DEBUG]   Exiting get()
+2026-02-14 21:57:34 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:34 [DEBUG]  Entering history()
+2026-02-14 21:57:34 [DEBUG] TCS.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:34 [DEBUG]   Entering get()
+2026-02-14 21:57:34 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:34 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/TCS.NS
+2026-02-14 21:57:34 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:34 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:34 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:34 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:34 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:34 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:34 [DEBUG] reusing crumb
+2026-02-14 21:57:34 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:34 [DEBUG] response code=200
+2026-02-14 21:57:34 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:34 [DEBUG]   Exiting get()
+2026-02-14 21:57:34 [DEBUG] TCS.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 09:55:00
+2026-02-14 21:57:34 [DEBUG] TCS.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:34 [DEBUG] TCS.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:34 [DEBUG] TCS.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:34 [DEBUG]  Exiting history()
+2026-02-14 21:57:34 [DEBUG] Exiting history()
+2026-02-14 21:57:34 [WARNING] Signal BUYING for TCS (score 6.57)
+2026-02-14 21:57:34 [DEBUG] Entering history()
+2026-02-14 21:57:34 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:34 [DEBUG]   Entering get()
+2026-02-14 21:57:34 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:34 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/HDFCBANK.NS
+2026-02-14 21:57:34 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:34 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:34 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:34 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:34 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:34 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:34 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG] reusing crumb
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] response code=200
+2026-02-14 21:57:35 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:35 [DEBUG]   Exiting get()
+2026-02-14 21:57:35 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:35 [DEBUG]  Entering history()
+2026-02-14 21:57:35 [DEBUG] HDFCBANK.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:35 [DEBUG]   Entering get()
+2026-02-14 21:57:35 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:35 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/HDFCBANK.NS
+2026-02-14 21:57:35 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:35 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:35 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG] reusing crumb
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] response code=200
+2026-02-14 21:57:35 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:35 [DEBUG]   Exiting get()
+2026-02-14 21:57:35 [DEBUG] HDFCBANK.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:35 [DEBUG] HDFCBANK.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:35 [DEBUG] HDFCBANK.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:35 [DEBUG] HDFCBANK.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:35 [DEBUG]  Exiting history()
+2026-02-14 21:57:35 [DEBUG] Exiting history()
+2026-02-14 21:57:35 [DEBUG] Entering history()
+2026-02-14 21:57:35 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:35 [DEBUG]   Entering get()
+2026-02-14 21:57:35 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:35 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/INFY.NS
+2026-02-14 21:57:35 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:35 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:35 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG] reusing crumb
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] response code=200
+2026-02-14 21:57:35 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:35 [DEBUG]   Exiting get()
+2026-02-14 21:57:35 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:35 [DEBUG]  Entering history()
+2026-02-14 21:57:35 [DEBUG] INFY.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:35 [DEBUG]   Entering get()
+2026-02-14 21:57:35 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:35 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/INFY.NS
+2026-02-14 21:57:35 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:35 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:35 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:35 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG] reusing crumb
+2026-02-14 21:57:35 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:35 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:35 [DEBUG] response code=200
+2026-02-14 21:57:35 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:35 [DEBUG]   Exiting get()
+2026-02-14 21:57:36 [DEBUG] INFY.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 09:55:00
+2026-02-14 21:57:36 [DEBUG] INFY.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:36 [DEBUG] INFY.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:36 [DEBUG] INFY.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:36 [DEBUG]  Exiting history()
+2026-02-14 21:57:36 [DEBUG] Exiting history()
+2026-02-14 21:57:36 [DEBUG] Entering history()
+2026-02-14 21:57:36 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:36 [DEBUG]   Entering get()
+2026-02-14 21:57:36 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:36 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/HINDUNILVR.NS
+2026-02-14 21:57:36 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:36 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:36 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:36 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:36 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:36 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:36 [DEBUG] reusing crumb
+2026-02-14 21:57:36 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:36 [DEBUG] response code=200
+2026-02-14 21:57:36 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:36 [DEBUG]   Exiting get()
+2026-02-14 21:57:36 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:36 [DEBUG]  Entering history()
+2026-02-14 21:57:36 [DEBUG] HINDUNILVR.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:36 [DEBUG]   Entering get()
+2026-02-14 21:57:36 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:36 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/HINDUNILVR.NS
+2026-02-14 21:57:36 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:36 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:36 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:36 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:36 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:36 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:36 [DEBUG] reusing crumb
+2026-02-14 21:57:36 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:36 [DEBUG] response code=200
+2026-02-14 21:57:36 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:36 [DEBUG]   Exiting get()
+2026-02-14 21:57:36 [DEBUG] HINDUNILVR.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:36 [DEBUG] HINDUNILVR.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:36 [DEBUG] HINDUNILVR.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:36 [DEBUG] HINDUNILVR.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:36 [DEBUG]  Exiting history()
+2026-02-14 21:57:36 [DEBUG] Exiting history()
+2026-02-14 21:57:36 [DEBUG] Entering history()
+2026-02-14 21:57:36 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:36 [DEBUG]   Entering get()
+2026-02-14 21:57:36 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:36 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ICICIBANK.NS
+2026-02-14 21:57:36 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:36 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:36 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:36 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:36 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:36 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:36 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:36 [DEBUG] reusing crumb
+2026-02-14 21:57:36 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:36 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] response code=200
+2026-02-14 21:57:37 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:37 [DEBUG]   Exiting get()
+2026-02-14 21:57:37 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:37 [DEBUG]  Entering history()
+2026-02-14 21:57:37 [DEBUG] ICICIBANK.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:37 [DEBUG]   Entering get()
+2026-02-14 21:57:37 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:37 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ICICIBANK.NS
+2026-02-14 21:57:37 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:37 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:37 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG] reusing crumb
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] response code=200
+2026-02-14 21:57:37 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:37 [DEBUG]   Exiting get()
+2026-02-14 21:57:37 [DEBUG] ICICIBANK.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:37 [DEBUG] ICICIBANK.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:37 [DEBUG] ICICIBANK.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:37 [DEBUG] ICICIBANK.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:37 [DEBUG]  Exiting history()
+2026-02-14 21:57:37 [DEBUG] Exiting history()
+2026-02-14 21:57:37 [DEBUG] Entering history()
+2026-02-14 21:57:37 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:37 [DEBUG]   Entering get()
+2026-02-14 21:57:37 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:37 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/KOTAKBANK.NS
+2026-02-14 21:57:37 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:37 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:37 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG] reusing crumb
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] response code=200
+2026-02-14 21:57:37 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:37 [DEBUG]   Exiting get()
+2026-02-14 21:57:37 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:37 [DEBUG]  Entering history()
+2026-02-14 21:57:37 [DEBUG] KOTAKBANK.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:37 [DEBUG]   Entering get()
+2026-02-14 21:57:37 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:37 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/KOTAKBANK.NS
+2026-02-14 21:57:37 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:37 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:37 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG] reusing crumb
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] response code=200
+2026-02-14 21:57:37 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:37 [DEBUG]   Exiting get()
+2026-02-14 21:57:37 [DEBUG] KOTAKBANK.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:37 [DEBUG] KOTAKBANK.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:37 [DEBUG] KOTAKBANK.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:37 [DEBUG] KOTAKBANK.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:37 [DEBUG]  Exiting history()
+2026-02-14 21:57:37 [DEBUG] Exiting history()
+2026-02-14 21:57:37 [DEBUG] Entering history()
+2026-02-14 21:57:37 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:37 [DEBUG]   Entering get()
+2026-02-14 21:57:37 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:37 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/BHARTIARTL.NS
+2026-02-14 21:57:37 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:37 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:37 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:37 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:37 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG] reusing crumb
+2026-02-14 21:57:37 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:37 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] response code=200
+2026-02-14 21:57:38 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:38 [DEBUG]   Exiting get()
+2026-02-14 21:57:38 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:38 [DEBUG]  Entering history()
+2026-02-14 21:57:38 [DEBUG] BHARTIARTL.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:38 [DEBUG]   Entering get()
+2026-02-14 21:57:38 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:38 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/BHARTIARTL.NS
+2026-02-14 21:57:38 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:38 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:38 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG] reusing crumb
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] response code=200
+2026-02-14 21:57:38 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:38 [DEBUG]   Exiting get()
+2026-02-14 21:57:38 [DEBUG] BHARTIARTL.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:38 [DEBUG] BHARTIARTL.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:38 [DEBUG] BHARTIARTL.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:38 [DEBUG] BHARTIARTL.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:38 [DEBUG]  Exiting history()
+2026-02-14 21:57:38 [DEBUG] Exiting history()
+2026-02-14 21:57:38 [DEBUG] Entering history()
+2026-02-14 21:57:38 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:38 [DEBUG]   Entering get()
+2026-02-14 21:57:38 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:38 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ITC.NS
+2026-02-14 21:57:38 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:38 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:38 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG] reusing crumb
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] response code=200
+2026-02-14 21:57:38 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:38 [DEBUG]   Exiting get()
+2026-02-14 21:57:38 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:38 [DEBUG]  Entering history()
+2026-02-14 21:57:38 [DEBUG] ITC.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:38 [DEBUG]   Entering get()
+2026-02-14 21:57:38 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:38 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ITC.NS
+2026-02-14 21:57:38 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:38 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:38 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG] reusing crumb
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] response code=200
+2026-02-14 21:57:38 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:38 [DEBUG]   Exiting get()
+2026-02-14 21:57:38 [DEBUG] ITC.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:38 [DEBUG] ITC.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:38 [DEBUG] ITC.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:38 [DEBUG] ITC.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:38 [DEBUG]  Exiting history()
+2026-02-14 21:57:38 [DEBUG] Exiting history()
+2026-02-14 21:57:38 [DEBUG] Entering history()
+2026-02-14 21:57:38 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:38 [DEBUG]   Entering get()
+2026-02-14 21:57:38 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:38 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/SBIN.NS
+2026-02-14 21:57:38 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:38 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:38 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:38 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:38 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG] reusing crumb
+2026-02-14 21:57:38 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:38 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] response code=200
+2026-02-14 21:57:39 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:39 [DEBUG]   Exiting get()
+2026-02-14 21:57:39 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:39 [DEBUG]  Entering history()
+2026-02-14 21:57:39 [DEBUG] SBIN.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:39 [DEBUG]   Entering get()
+2026-02-14 21:57:39 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:39 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/SBIN.NS
+2026-02-14 21:57:39 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:39 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:39 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:39 [DEBUG] reusing crumb
+2026-02-14 21:57:39 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] response code=200
+2026-02-14 21:57:39 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:39 [DEBUG]   Exiting get()
+2026-02-14 21:57:39 [DEBUG] SBIN.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:39 [DEBUG] SBIN.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:39 [DEBUG] SBIN.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:39 [DEBUG] SBIN.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:39 [DEBUG]  Exiting history()
+2026-02-14 21:57:39 [DEBUG] Exiting history()
+2026-02-14 21:57:39 [DEBUG] Entering history()
+2026-02-14 21:57:39 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:39 [DEBUG]   Entering get()
+2026-02-14 21:57:39 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:39 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ASIANPAINT.NS
+2026-02-14 21:57:39 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:39 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:39 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:39 [DEBUG] reusing crumb
+2026-02-14 21:57:39 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] response code=200
+2026-02-14 21:57:39 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:39 [DEBUG]   Exiting get()
+2026-02-14 21:57:39 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:39 [DEBUG]  Entering history()
+2026-02-14 21:57:39 [DEBUG] ASIANPAINT.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:39 [DEBUG]   Entering get()
+2026-02-14 21:57:39 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:39 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ASIANPAINT.NS
+2026-02-14 21:57:39 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:39 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:39 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:39 [DEBUG] reusing crumb
+2026-02-14 21:57:39 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] response code=200
+2026-02-14 21:57:39 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:39 [DEBUG]   Exiting get()
+2026-02-14 21:57:39 [DEBUG] ASIANPAINT.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:39 [DEBUG] ASIANPAINT.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:39 [DEBUG] ASIANPAINT.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:39 [DEBUG] ASIANPAINT.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:39 [DEBUG]  Exiting history()
+2026-02-14 21:57:39 [DEBUG] Exiting history()
+2026-02-14 21:57:39 [DEBUG] Entering history()
+2026-02-14 21:57:39 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:39 [DEBUG]   Entering get()
+2026-02-14 21:57:39 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:39 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/LT.NS
+2026-02-14 21:57:39 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:39 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:39 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:39 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:39 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:39 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:39 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG] reusing crumb
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:40 [DEBUG] response code=200
+2026-02-14 21:57:40 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:40 [DEBUG]   Exiting get()
+2026-02-14 21:57:40 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:40 [DEBUG]  Entering history()
+2026-02-14 21:57:40 [DEBUG] LT.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:40 [DEBUG]   Entering get()
+2026-02-14 21:57:40 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:40 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/LT.NS
+2026-02-14 21:57:40 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:40 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:40 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:40 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG] reusing crumb
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:40 [DEBUG] response code=200
+2026-02-14 21:57:40 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:40 [DEBUG]   Exiting get()
+2026-02-14 21:57:40 [DEBUG] LT.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:40 [DEBUG] LT.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:40 [DEBUG] LT.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:40 [DEBUG] LT.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:40 [DEBUG]  Exiting history()
+2026-02-14 21:57:40 [DEBUG] Exiting history()
+2026-02-14 21:57:40 [DEBUG] Entering history()
+2026-02-14 21:57:40 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:40 [DEBUG]   Entering get()
+2026-02-14 21:57:40 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:40 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AXISBANK.NS
+2026-02-14 21:57:40 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:40 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:40 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:40 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG] reusing crumb
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:40 [DEBUG] response code=200
+2026-02-14 21:57:40 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:40 [DEBUG]   Exiting get()
+2026-02-14 21:57:40 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:40 [DEBUG]  Entering history()
+2026-02-14 21:57:40 [DEBUG] AXISBANK.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:40 [DEBUG]   Entering get()
+2026-02-14 21:57:40 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:40 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AXISBANK.NS
+2026-02-14 21:57:40 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:40 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:40 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:40 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:40 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG] reusing crumb
+2026-02-14 21:57:40 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:40 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] response code=200
+2026-02-14 21:57:41 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:41 [DEBUG]   Exiting get()
+2026-02-14 21:57:41 [DEBUG] AXISBANK.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:41 [DEBUG] AXISBANK.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:41 [DEBUG] AXISBANK.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:41 [DEBUG] AXISBANK.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:41 [DEBUG]  Exiting history()
+2026-02-14 21:57:41 [DEBUG] Exiting history()
+2026-02-14 21:57:41 [DEBUG] Entering history()
+2026-02-14 21:57:41 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:41 [DEBUG]   Entering get()
+2026-02-14 21:57:41 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:41 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/MARUTI.NS
+2026-02-14 21:57:41 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:41 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:41 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG] reusing crumb
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] response code=200
+2026-02-14 21:57:41 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:41 [DEBUG]   Exiting get()
+2026-02-14 21:57:41 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:41 [DEBUG]  Entering history()
+2026-02-14 21:57:41 [DEBUG] MARUTI.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:41 [DEBUG]   Entering get()
+2026-02-14 21:57:41 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:41 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/MARUTI.NS
+2026-02-14 21:57:41 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:41 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:41 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG] reusing crumb
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] response code=200
+2026-02-14 21:57:41 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:41 [DEBUG]   Exiting get()
+2026-02-14 21:57:41 [DEBUG] MARUTI.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:41 [DEBUG] MARUTI.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:41 [DEBUG] MARUTI.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:41 [DEBUG] MARUTI.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:41 [DEBUG]  Exiting history()
+2026-02-14 21:57:41 [DEBUG] Exiting history()
+2026-02-14 21:57:41 [DEBUG] Entering history()
+2026-02-14 21:57:41 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:41 [DEBUG]   Entering get()
+2026-02-14 21:57:41 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:41 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/SUNPHARMA.NS
+2026-02-14 21:57:41 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:41 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:41 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG] reusing crumb
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] response code=200
+2026-02-14 21:57:41 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:41 [DEBUG]   Exiting get()
+2026-02-14 21:57:41 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:41 [DEBUG]  Entering history()
+2026-02-14 21:57:41 [DEBUG] SUNPHARMA.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:41 [DEBUG]   Entering get()
+2026-02-14 21:57:41 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:41 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/SUNPHARMA.NS
+2026-02-14 21:57:41 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:41 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:41 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:41 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:41 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG] reusing crumb
+2026-02-14 21:57:41 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:41 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:42 [DEBUG] response code=200
+2026-02-14 21:57:42 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:42 [DEBUG]   Exiting get()
+2026-02-14 21:57:42 [DEBUG] SUNPHARMA.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:42 [DEBUG] SUNPHARMA.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:42 [DEBUG] SUNPHARMA.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:42 [DEBUG] SUNPHARMA.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:42 [DEBUG]  Exiting history()
+2026-02-14 21:57:42 [DEBUG] Exiting history()
+2026-02-14 21:57:42 [DEBUG] Entering history()
+2026-02-14 21:57:42 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:42 [DEBUG]   Entering get()
+2026-02-14 21:57:42 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:42 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/TITAN.NS
+2026-02-14 21:57:42 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:42 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:42 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:42 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:42 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:42 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:42 [DEBUG] reusing crumb
+2026-02-14 21:57:42 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:42 [DEBUG] response code=200
+2026-02-14 21:57:42 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:42 [DEBUG]   Exiting get()
+2026-02-14 21:57:42 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:42 [DEBUG]  Entering history()
+2026-02-14 21:57:42 [DEBUG] TITAN.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:42 [DEBUG]   Entering get()
+2026-02-14 21:57:42 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:42 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/TITAN.NS
+2026-02-14 21:57:42 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:42 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:42 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:42 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:42 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:42 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:42 [DEBUG] reusing crumb
+2026-02-14 21:57:42 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:42 [DEBUG] response code=200
+2026-02-14 21:57:42 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:42 [DEBUG]   Exiting get()
+2026-02-14 21:57:42 [DEBUG] TITAN.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 09:55:00
+2026-02-14 21:57:42 [DEBUG] TITAN.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:42 [DEBUG] TITAN.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:42 [DEBUG] TITAN.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:42 [DEBUG]  Exiting history()
+2026-02-14 21:57:42 [DEBUG] Exiting history()
+2026-02-14 21:57:42 [DEBUG] Entering history()
+2026-02-14 21:57:42 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:42 [DEBUG]   Entering get()
+2026-02-14 21:57:42 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:42 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/NESTLEIND.NS
+2026-02-14 21:57:42 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:42 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:42 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:42 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:42 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:42 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:42 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:43 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:43 [DEBUG] reusing crumb
+2026-02-14 21:57:43 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:43 [DEBUG] response code=200
+2026-02-14 21:57:43 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:43 [DEBUG]   Exiting get()
+2026-02-14 21:57:43 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:43 [DEBUG]  Entering history()
+2026-02-14 21:57:43 [DEBUG] NESTLEIND.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:43 [DEBUG]   Entering get()
+2026-02-14 21:57:43 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:43 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/NESTLEIND.NS
+2026-02-14 21:57:43 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:43 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:43 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:43 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:43 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:43 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:43 [DEBUG] reusing crumb
+2026-02-14 21:57:43 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:43 [DEBUG] response code=200
+2026-02-14 21:57:43 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:43 [DEBUG]   Exiting get()
+2026-02-14 21:57:43 [DEBUG] NESTLEIND.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:43 [DEBUG] NESTLEIND.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:43 [DEBUG] NESTLEIND.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:43 [DEBUG] NESTLEIND.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:43 [DEBUG]  Exiting history()
+2026-02-14 21:57:43 [DEBUG] Exiting history()
+2026-02-14 21:57:43 [DEBUG] Entering history()
+2026-02-14 21:57:43 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:43 [DEBUG]   Entering get()
+2026-02-14 21:57:43 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:43 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ULTRACEMCO.NS
+2026-02-14 21:57:43 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:43 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:43 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:43 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:43 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:43 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:43 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:43 [DEBUG] reusing crumb
+2026-02-14 21:57:43 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:43 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:44 [DEBUG] response code=200
+2026-02-14 21:57:44 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:44 [DEBUG]   Exiting get()
+2026-02-14 21:57:44 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:44 [DEBUG]  Entering history()
+2026-02-14 21:57:44 [DEBUG] ULTRACEMCO.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:44 [DEBUG]   Entering get()
+2026-02-14 21:57:44 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:44 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/ULTRACEMCO.NS
+2026-02-14 21:57:44 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:44 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:44 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:44 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:44 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:44 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:44 [DEBUG] reusing crumb
+2026-02-14 21:57:44 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:44 [DEBUG] response code=200
+2026-02-14 21:57:44 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:44 [DEBUG]   Exiting get()
+2026-02-14 21:57:44 [DEBUG] ULTRACEMCO.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 09:55:00
+2026-02-14 21:57:44 [DEBUG] ULTRACEMCO.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:44 [DEBUG] ULTRACEMCO.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:44 [DEBUG] ULTRACEMCO.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:44 [DEBUG]  Exiting history()
+2026-02-14 21:57:44 [DEBUG] Exiting history()
+2026-02-14 21:57:44 [DEBUG] Entering history()
+2026-02-14 21:57:44 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:44 [DEBUG]   Entering get()
+2026-02-14 21:57:44 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:44 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/WIPRO.NS
+2026-02-14 21:57:44 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:44 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:44 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:44 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:44 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:44 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:44 [DEBUG] reusing crumb
+2026-02-14 21:57:44 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:44 [DEBUG] response code=200
+2026-02-14 21:57:44 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:44 [DEBUG]   Exiting get()
+2026-02-14 21:57:44 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:44 [DEBUG]  Entering history()
+2026-02-14 21:57:44 [DEBUG] WIPRO.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:44 [DEBUG]   Entering get()
+2026-02-14 21:57:44 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:44 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/WIPRO.NS
+2026-02-14 21:57:44 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:44 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:44 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:44 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:44 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:44 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:44 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:44 [DEBUG] reusing crumb
+2026-02-14 21:57:44 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:44 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:45 [DEBUG] response code=200
+2026-02-14 21:57:45 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:45 [DEBUG]   Exiting get()
+2026-02-14 21:57:45 [DEBUG] WIPRO.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:45 [DEBUG] WIPRO.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:45 [DEBUG] WIPRO.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:45 [DEBUG] WIPRO.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:45 [DEBUG]  Exiting history()
+2026-02-14 21:57:45 [DEBUG] Exiting history()
+2026-02-14 21:57:45 [DEBUG] Entering history()
+2026-02-14 21:57:45 [DEBUG]  Entering _fetch_ticker_tz()
+2026-02-14 21:57:45 [DEBUG]   Entering get()
+2026-02-14 21:57:45 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:45 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/HCLTECH.NS
+2026-02-14 21:57:45 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2026-02-14 21:57:45 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:45 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:45 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:45 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:45 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:45 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:45 [DEBUG] reusing crumb
+2026-02-14 21:57:45 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:45 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:45 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:45 [DEBUG] response code=200
+2026-02-14 21:57:45 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:45 [DEBUG]   Exiting get()
+2026-02-14 21:57:45 [DEBUG]  Exiting _fetch_ticker_tz()
+2026-02-14 21:57:45 [DEBUG]  Entering history()
+2026-02-14 21:57:45 [DEBUG] HCLTECH.NS: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:45 [DEBUG]   Entering get()
+2026-02-14 21:57:45 [DEBUG]    Entering _make_request()
+2026-02-14 21:57:45 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/HCLTECH.NS
+2026-02-14 21:57:45 [DEBUG] params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2026-02-14 21:57:45 [DEBUG]     Entering _get_cookie_and_crumb()
+2026-02-14 21:57:45 [DEBUG] cookie_mode = 'basic'
+2026-02-14 21:57:45 [DEBUG]      Entering _get_cookie_and_crumb_basic()
+2026-02-14 21:57:45 [DEBUG]       Entering _get_cookie_basic()
+2026-02-14 21:57:45 [DEBUG]        Entering _load_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]        Exiting _load_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]        Entering _save_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]        Exiting _save_cookie_curlCffi()
+2026-02-14 21:57:45 [DEBUG]       Exiting _get_cookie_basic()
+2026-02-14 21:57:45 [DEBUG]       Entering _get_crumb_basic()
+2026-02-14 21:57:45 [DEBUG] reusing crumb
+2026-02-14 21:57:45 [DEBUG]       Exiting _get_crumb_basic()
+2026-02-14 21:57:45 [DEBUG]      Exiting _get_cookie_and_crumb_basic()
+2026-02-14 21:57:45 [DEBUG]     Exiting _get_cookie_and_crumb()
+2026-02-14 21:57:45 [DEBUG] response code=200
+2026-02-14 21:57:45 [DEBUG]    Exiting _make_request()
+2026-02-14 21:57:45 [DEBUG]   Exiting get()
+2026-02-14 21:57:45 [DEBUG] HCLTECH.NS: yfinance received OHLC data: 2026-02-13 03:45:00 -> 2026-02-13 10:00:00
+2026-02-14 21:57:45 [DEBUG] HCLTECH.NS: OHLC after cleaning: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:45 [DEBUG] HCLTECH.NS: OHLC after combining events: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:45 [DEBUG] HCLTECH.NS: yfinance returning OHLC: 2026-02-13 09:15:00+05:30 -> 2026-02-13 15:25:00+05:30
+2026-02-14 21:57:45 [DEBUG]  Exiting history()
+2026-02-14 21:57:45 [DEBUG] Exiting history()
+2026-02-14 21:57:45 [INFO] Check complete: 20 stocks
+2026-02-14 21:58:38 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 21:58:38 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 21:58:38 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 21:58:38 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-14 21:59:00 [INFO] 127.0.0.1 - - [14/Feb/2026 21:59:00] "GET / HTTP/1.1" 200 -
+2026-02-14 21:59:00 [INFO] 127.0.0.1 - - [14/Feb/2026 21:59:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-14 21:59:06 [INFO] Starting trend check at 2026-02-14 21:59:06
+2026-02-14 21:59:06 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2026-02-14 21:59:06 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 21:59:06 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2026-02-14 21:59:06 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 21:59:07 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 21:59:08 [WARNING] Signal BUYING for TCS (score 6.57)
+2026-02-14 21:59:08 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 21:59:08 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 21:59:09 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 21:59:09 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 21:59:09 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 21:59:09 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:09 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['KOTAKBANK.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:10 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 21:59:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 21:59:11 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:11 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['ITC.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 21:59:14 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 21:59:14 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:14 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['ASIANPAINT.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:14 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 21:59:15 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:15 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['LT.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:15 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 21:59:15 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:15 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['AXISBANK.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:16 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 21:59:16 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:16 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['MARUTI.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:17 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 21:59:17 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:17 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['SUNPHARMA.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:18 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 21:59:18 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:18 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['TITAN.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:19 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 21:59:20 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:20 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['NESTLEIND.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:21 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 21:59:21 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:21 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['ULTRACEMCO.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:22 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 21:59:22 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:22 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['WIPRO.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:23 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 21:59:23 [DEBUG] ('BEGIN', None)
+2026-02-14 21:59:23 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['HCLTECH.NS', 'Asia/Kolkata'])
+2026-02-14 21:59:23 [INFO] Check complete: 20 stocks
+2026-02-14 21:59:23 [INFO] 127.0.0.1 - - [14/Feb/2026 21:59:23] "GET /run HTTP/1.1" 200 -
+2026-02-14 22:01:36 [INFO] Starting trend check at 2026-02-14 22:01:36
+2026-02-14 22:01:36 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:01:37 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:01:38 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:01:38 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:01:38 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:01:38 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:01:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:01:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:01:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:01:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:01:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:01:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:01:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:01:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:01:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:01:41 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:01:41 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:01:41 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:01:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:01:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:01:42 [INFO] Check complete: 20 stocks
+2026-02-14 22:01:42 [INFO] 127.0.0.1 - - [14/Feb/2026 22:01:42] "GET /run HTTP/1.1" 200 -
+2026-02-14 22:03:36 [INFO] Starting trend check at 2026-02-14 22:03:36
+2026-02-14 22:03:36 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:03:37 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:03:38 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:03:38 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:03:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:03:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:03:39 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:03:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:03:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:03:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:03:41 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:03:41 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:03:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:03:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:03:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:03:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:03:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:03:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:03:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:03:45 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:03:45 [INFO] Check complete: 20 stocks
+2026-02-14 22:03:45 [INFO] 127.0.0.1 - - [14/Feb/2026 22:03:45] "GET /run HTTP/1.1" 200 -
+2026-02-14 22:07:40 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:09:27 [INFO] 127.0.0.1 - - [14/Feb/2026 22:09:27] "GET / HTTP/1.1" 200 -
+2026-02-14 22:09:29 [INFO] 127.0.0.1 - - [14/Feb/2026 22:09:29] "GET / HTTP/1.1" 200 -
+2026-02-14 22:09:29 [INFO] 127.0.0.1 - - [14/Feb/2026 22:09:29] "GET / HTTP/1.1" 200 -
+2026-02-14 22:09:29 [INFO] 127.0.0.1 - - [14/Feb/2026 22:09:29] "GET / HTTP/1.1" 200 -
+2026-02-14 22:10:00 [INFO] Shutdown requested (signal 2)
+2026-02-14 22:10:09 [INFO] 127.0.0.1 - - [14/Feb/2026 22:10:09] "GET / HTTP/1.1" 200 -
+2026-02-14 22:13:54 [INFO] Shutdown requested (signal 2)
+2026-02-14 22:13:55 [INFO] Shutdown requested (signal 2)
+2026-02-14 22:13:56 [INFO] Shutdown requested (signal 2)
+2026-02-14 22:13:56 [INFO] Shutdown requested (signal 2)
+2026-02-14 22:13:56 [INFO] Shutdown requested (signal 2)
+2026-02-14 22:14:55 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:14:55 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 22:15:53 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:15:53 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 22:17:45 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:17:45 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 22:17:45 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 22:17:45 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-14 22:17:48 [INFO] 127.0.0.1 - - [14/Feb/2026 22:17:48] "GET / HTTP/1.1" 200 -
+2026-02-14 22:17:48 [INFO] 127.0.0.1 - - [14/Feb/2026 22:17:48] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:18:17 [INFO] 127.0.0.1 - - [14/Feb/2026 22:18:17] "POST /stop HTTP/1.1" 200 -
+2026-02-14 22:18:17 [INFO] 127.0.0.1 - - [14/Feb/2026 22:18:17] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:18:20 [INFO] Monitoring loop started (interval 10 min)
+2026-02-14 22:18:20 [INFO] 127.0.0.1 - - [14/Feb/2026 22:18:20] "POST /start HTTP/1.1" 200 -
+2026-02-14 22:18:20 [INFO] Starting trend check at 2026-02-14 22:18:20
+2026-02-14 22:18:20 [INFO] 127.0.0.1 - - [14/Feb/2026 22:18:20] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:18:20 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2026-02-14 22:18:20 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:18:20 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2026-02-14 22:18:20 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 22:18:22 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:18:22 [WARNING] Signal BUYING for TCS (score 6.57)
+2026-02-14 22:18:22 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:18:23 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:18:23 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:18:23 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:18:23 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:18:23 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:18:24 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:18:24 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:18:25 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:18:25 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:18:26 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:18:26 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:18:26 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:18:27 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:18:27 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:18:27 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:18:27 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:18:28 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:18:28 [INFO] Check complete: 20 stocks
+2026-02-14 22:19:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:19:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:20:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:20:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:21:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:21:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:22:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:22:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:23:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:23:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:24:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:24:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:25:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:25:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:26:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:26:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:27:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:27:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:28:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:28:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:28:30 [INFO] Starting trend check at 2026-02-14 22:28:30
+2026-02-14 22:28:30 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:28:30 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:28:30 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:28:30 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:28:31 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:28:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:28:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:28:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:28:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:28:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:28:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:28:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:28:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:28:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:28:33 [INFO] Check complete: 20 stocks
+2026-02-14 22:29:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:29:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:30:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:30:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:31:25 [INFO] 127.0.0.1 - - [14/Feb/2026 22:31:25] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:32:14 [INFO] 127.0.0.1 - - [14/Feb/2026 22:32:14] "GET / HTTP/1.1" 200 -
+2026-02-14 22:32:14 [INFO] 127.0.0.1 - - [14/Feb/2026 22:32:14] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:34:10 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:34:10 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 22:34:34 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:34:34 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 22:34:34 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 22:34:34 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-14 22:34:38 [INFO] 127.0.0.1 - - [14/Feb/2026 22:34:38] "GET / HTTP/1.1" 200 -
+2026-02-14 22:34:38 [INFO] 127.0.0.1 - - [14/Feb/2026 22:34:38] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:34:42 [INFO] Monitoring loop started (interval 10 min)
+2026-02-14 22:34:42 [INFO] 127.0.0.1 - - [14/Feb/2026 22:34:42] "POST /start HTTP/1.1" 200 -
+2026-02-14 22:34:42 [INFO] Starting trend check at 2026-02-14 22:34:42
+2026-02-14 22:34:42 [INFO] 127.0.0.1 - - [14/Feb/2026 22:34:42] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:34:42 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2026-02-14 22:34:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:34:42 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2026-02-14 22:34:42 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 22:34:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:34:44 [WARNING] Signal BUYING for TCS (score 6.57)
+2026-02-14 22:34:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:34:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:34:48 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:34:48 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:34:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:34:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:34:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:34:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:34:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:34:51 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:34:51 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:34:51 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:34:51 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:34:53 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:34:53 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:34:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:34:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:34:55 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:34:56 [INFO] Check complete: 20 stocks
+2026-02-14 22:35:18 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:18] "POST /stop HTTP/1.1" 200 -
+2026-02-14 22:35:18 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:18] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:35:19 [INFO] Monitoring loop stopped
+2026-02-14 22:35:34 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:34] "GET / HTTP/1.1" 200 -
+2026-02-14 22:35:34 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:34] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:35:37 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:37] "GET / HTTP/1.1" 200 -
+2026-02-14 22:35:37 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:37] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:35:40 [INFO] Starting trend check at 2026-02-14 22:35:40
+2026-02-14 22:35:40 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:35:41 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:35:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:35:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:35:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:35:42 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:35:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:35:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:35:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:35:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:35:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:35:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:35:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:35:45 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:35:45 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:35:51 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:35:52 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:35:52 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:35:53 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:35:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:35:55 [INFO] Check complete: 20 stocks
+2026-02-14 22:35:55 [INFO] 127.0.0.1 - - [14/Feb/2026 22:35:55] "GET /run HTTP/1.1" 200 -
+2026-02-14 22:38:41 [INFO] 127.0.0.1 - - [14/Feb/2026 22:38:41] "GET / HTTP/1.1" 200 -
+2026-02-14 22:38:41 [INFO] 127.0.0.1 - - [14/Feb/2026 22:38:41] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:40:30 [INFO] 127.0.0.1 - - [14/Feb/2026 22:40:30] "GET / HTTP/1.1" 200 -
+2026-02-14 22:40:30 [INFO] 127.0.0.1 - - [14/Feb/2026 22:40:30] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:40:32 [INFO] Starting trend check at 2026-02-14 22:40:32
+2026-02-14 22:40:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 22:40:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 22:40:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 22:40:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 22:40:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 22:40:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 22:40:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 22:40:33 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 22:40:34 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 22:40:34 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 22:40:34 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 22:40:34 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 22:40:34 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 22:40:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 22:40:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 22:40:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 22:40:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 22:40:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 22:40:36 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 22:40:36 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 22:40:36 [INFO] Check complete: 20 stocks
+2026-02-14 22:40:36 [INFO] 127.0.0.1 - - [14/Feb/2026 22:40:36] "GET /run HTTP/1.1" 200 -
+2026-02-14 22:46:04 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:46:26 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:51:39 [INFO] 127.0.0.1 - - [14/Feb/2026 22:51:39] "GET / HTTP/1.1" 200 -
+2026-02-14 22:51:39 [INFO] 127.0.0.1 - - [14/Feb/2026 22:51:39] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:56:36 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:59:18 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 22:59:18 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 22:59:18 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 22:59:18 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-14 22:59:21 [INFO] 127.0.0.1 - - [14/Feb/2026 22:59:21] "GET / HTTP/1.1" 200 -
+2026-02-14 22:59:21 [INFO] 127.0.0.1 - - [14/Feb/2026 22:59:21] "GET /stocks HTTP/1.1" 200 -
+2026-02-14 22:59:21 [INFO] 127.0.0.1 - - [14/Feb/2026 22:59:21] "GET /results HTTP/1.1" 200 -
+2026-02-14 22:59:32 [INFO] 127.0.0.1 - - [14/Feb/2026 22:59:32] "GET / HTTP/1.1" 200 -
+2026-02-14 22:59:32 [INFO] 127.0.0.1 - - [14/Feb/2026 22:59:32] "GET /stocks HTTP/1.1" 200 -
+2026-02-14 22:59:32 [INFO] 127.0.0.1 - - [14/Feb/2026 22:59:32] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:04:32 [INFO] Starting trend check at 2026-02-14 23:04:32
+2026-02-14 23:04:32 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2026-02-14 23:04:32 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:04:32 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2026-02-14 23:04:32 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:04:34 [DEBUG] ('BEGIN', None)
+2026-02-14 23:04:34 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['SHRIRAMFIN.NS', 'Asia/Kolkata'])
+2026-02-14 23:04:34 [INFO] Check complete: 1 stocks
+2026-02-14 23:04:34 [INFO] 127.0.0.1 - - [14/Feb/2026 23:04:34] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:05:04 [INFO] Starting trend check at 2026-02-14 23:05:04
+2026-02-14 23:05:04 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:05:05 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:05:05 [DEBUG] ('BEGIN', None)
+2026-02-14 23:05:05 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['ABFRL.NS', 'Asia/Kolkata'])
+2026-02-14 23:05:05 [INFO] Check complete: 2 stocks
+2026-02-14 23:05:05 [INFO] 127.0.0.1 - - [14/Feb/2026 23:05:05] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:05:15 [INFO] Starting trend check at 2026-02-14 23:05:15
+2026-02-14 23:05:15 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:05:16 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:05:16 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BALKRISIND.NS', 1, 0])
+2026-02-14 23:05:16 [DEBUG] ('BEGIN', None)
+2026-02-14 23:05:16 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['BALKRISIND.NS', 'Asia/Kolkata'])
+2026-02-14 23:05:17 [INFO] Check complete: 3 stocks
+2026-02-14 23:05:17 [INFO] 127.0.0.1 - - [14/Feb/2026 23:05:17] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:05:35 [INFO] Starting trend check at 2026-02-14 23:05:35
+2026-02-14 23:05:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:05:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:05:35 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASHOKLEY.NS', 1, 0])
+2026-02-14 23:05:36 [DEBUG] ('BEGIN', None)
+2026-02-14 23:05:36 [DEBUG] ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['ASHOKLEY.NS', 'Asia/Kolkata'])
+2026-02-14 23:05:36 [WARNING] Signal SELLING for ASHOKLEY (score 5.30)
+2026-02-14 23:05:36 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BALKRISIND.NS', 1, 0])
+2026-02-14 23:05:36 [INFO] Check complete: 4 stocks
+2026-02-14 23:05:36 [INFO] 127.0.0.1 - - [14/Feb/2026 23:05:36] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:05:58 [INFO] Starting trend check at 2026-02-14 23:05:58
+2026-02-14 23:05:58 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:05:59 [WARNING] Signal BUYING for TCS (score 6.57)
+2026-02-14 23:05:59 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:05:59 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:05:59 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASHOKLEY.NS', 1, 0])
+2026-02-14 23:06:00 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BALKRISIND.NS', 1, 0])
+2026-02-14 23:06:00 [INFO] Check complete: 5 stocks
+2026-02-14 23:06:00 [INFO] 127.0.0.1 - - [14/Feb/2026 23:06:00] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:06:26 [INFO] 127.0.0.1 - - [14/Feb/2026 23:06:26] "GET / HTTP/1.1" 200 -
+2026-02-14 23:06:26 [INFO] 127.0.0.1 - - [14/Feb/2026 23:06:26] "GET /stocks HTTP/1.1" 200 -
+2026-02-14 23:06:26 [INFO] 127.0.0.1 - - [14/Feb/2026 23:06:26] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:08:25 [INFO] Starting trend check at 2026-02-14 23:08:25
+2026-02-14 23:08:25 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:08:26 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TATAMOTORS.NS', 1, 0])
+2026-02-14 23:08:26 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:08:27 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:08:28 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+2026-02-14 23:08:29 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:08:29 [ERROR] $TATAMOTORS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-02-14 23:08:29 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:08:29 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:08:30 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASHOKLEY.NS', 1, 0])
+2026-02-14 23:08:30 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BALKRISIND.NS', 1, 0])
+2026-02-14 23:08:30 [INFO] Check complete: 5 stocks
+2026-02-14 23:08:30 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:30] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:08:43 [INFO] Starting trend check at 2026-02-14 23:08:43
+2026-02-14 23:08:43 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:08:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TATAMOTORS.NS', 1, 0])
+2026-02-14 23:08:44 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:08:45 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+2026-02-14 23:08:45 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:08:46 [ERROR] $TATAMOTORS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-02-14 23:08:46 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:08:46 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:08:46 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASHOKLEY.NS', 1, 0])
+2026-02-14 23:08:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BALKRISIND.NS', 1, 0])
+2026-02-14 23:08:47 [INFO] Check complete: 5 stocks
+2026-02-14 23:08:47 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:47] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:08:52 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:52] "GET / HTTP/1.1" 200 -
+2026-02-14 23:08:52 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:52] "GET /stocks HTTP/1.1" 200 -
+2026-02-14 23:08:52 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:52] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:08:55 [INFO] Monitoring loop started (interval 10 min)
+2026-02-14 23:08:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:55] "POST /start HTTP/1.1" 200 -
+2026-02-14 23:08:55 [INFO] Starting trend check at 2026-02-14 23:08:55
+2026-02-14 23:08:55 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:08:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:08:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:08:56 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TATAMOTORS.NS', 1, 0])
+2026-02-14 23:08:56 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:08:57 [ERROR] $TATAMOTORS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-02-14 23:08:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SHRIRAMFIN.NS', 1, 0])
+2026-02-14 23:08:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ABFRL.NS', 1, 0])
+2026-02-14 23:08:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASHOKLEY.NS', 1, 0])
+2026-02-14 23:08:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BALKRISIND.NS', 1, 0])
+2026-02-14 23:08:57 [INFO] Check complete: 5 stocks
+2026-02-14 23:09:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:09:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:10:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:10:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:11:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:11:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:12:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:12:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:13:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:13:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:14:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:14:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:15:55 [INFO] 127.0.0.1 - - [14/Feb/2026 23:15:55] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:17:01 [INFO] 127.0.0.1 - - [14/Feb/2026 23:17:01] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:17:54 [INFO] Config loaded from /Users/apple/Sites/Custom-Apps/Python-Trigger/config.json
+2026-02-14 23:17:54 [INFO] Starting web UI at http://127.0.0.1:5000
+2026-02-14 23:17:54 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 23:17:54 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-14 23:17:58 [INFO] 127.0.0.1 - - [14/Feb/2026 23:17:58] "GET / HTTP/1.1" 200 -
+2026-02-14 23:17:58 [INFO] 127.0.0.1 - - [14/Feb/2026 23:17:58] "GET /stocks HTTP/1.1" 200 -
+2026-02-14 23:17:58 [INFO] 127.0.0.1 - - [14/Feb/2026 23:17:58] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:17:58 [INFO] 127.0.0.1 - - [14/Feb/2026 23:17:58] "GET /notification-emails HTTP/1.1" 200 -
+2026-02-14 23:18:44 [INFO] Monitoring loop started (interval 10 min)
+2026-02-14 23:18:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:18:44] "POST /start HTTP/1.1" 200 -
+2026-02-14 23:18:44 [INFO] Starting trend check at 2026-02-14 23:18:44
+2026-02-14 23:18:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:18:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:18:44 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2026-02-14 23:18:44 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 23:18:44 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2026-02-14 23:18:44 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2026-02-14 23:18:46 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:18:46 [WARNING] Signal BUYING for TCS (score 6.57)
+2026-02-14 23:18:46 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 23:18:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 23:18:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 23:18:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 23:18:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 23:18:47 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 23:18:48 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 23:18:48 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 23:18:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 23:18:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 23:18:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 23:18:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 23:18:49 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 23:18:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 23:18:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 23:18:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 23:18:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 23:18:50 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 23:18:51 [INFO] Check complete: 20 stocks
+2026-02-14 23:19:10 [INFO] Starting trend check at 2026-02-14 23:19:10
+2026-02-14 23:19:10 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 23:19:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:19:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 23:19:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 23:19:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 23:19:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 23:19:11 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 23:19:12 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 23:19:12 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 23:19:12 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 23:19:12 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 23:19:12 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 23:19:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 23:19:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 23:19:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 23:19:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 23:19:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 23:19:13 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 23:19:14 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 23:19:14 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 23:19:14 [INFO] Check complete: 20 stocks
+2026-02-14 23:19:14 [INFO] 127.0.0.1 - - [14/Feb/2026 23:19:14] "POST /run HTTP/1.1" 200 -
+2026-02-14 23:19:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:19:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:20:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:20:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:21:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:21:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:22:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:22:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:23:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:23:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:24:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:24:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:25:44 [INFO] 127.0.0.1 - - [14/Feb/2026 23:25:44] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:26:49 [INFO] 127.0.0.1 - - [14/Feb/2026 23:26:49] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:27:50 [INFO] 127.0.0.1 - - [14/Feb/2026 23:27:50] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:28:52 [INFO] Starting trend check at 2026-02-14 23:28:52
+2026-02-14 23:28:52 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['RELIANCE.NS', 1, 0])
+2026-02-14 23:28:53 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TCS.NS', 1, 0])
+2026-02-14 23:28:53 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HDFCBANK.NS', 1, 0])
+2026-02-14 23:28:53 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['INFY.NS', 1, 0])
+2026-02-14 23:28:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HINDUNILVR.NS', 1, 0])
+2026-02-14 23:28:54 [INFO] 127.0.0.1 - - [14/Feb/2026 23:28:54] "GET /results HTTP/1.1" 200 -
+2026-02-14 23:28:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ICICIBANK.NS', 1, 0])
+2026-02-14 23:28:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['KOTAKBANK.NS', 1, 0])
+2026-02-14 23:28:54 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['BHARTIARTL.NS', 1, 0])
+2026-02-14 23:28:55 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ITC.NS', 1, 0])
+2026-02-14 23:28:55 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SBIN.NS', 1, 0])
+2026-02-14 23:28:55 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASIANPAINT.NS', 1, 0])
+2026-02-14 23:28:55 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['LT.NS', 1, 0])
+2026-02-14 23:28:56 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AXISBANK.NS', 1, 0])
+2026-02-14 23:28:56 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['MARUTI.NS', 1, 0])
+2026-02-14 23:28:56 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SUNPHARMA.NS', 1, 0])
+2026-02-14 23:28:56 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['TITAN.NS', 1, 0])
+2026-02-14 23:28:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['NESTLEIND.NS', 1, 0])
+2026-02-14 23:28:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ULTRACEMCO.NS', 1, 0])
+2026-02-14 23:28:57 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['WIPRO.NS', 1, 0])
+2026-02-14 23:28:58 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['HCLTECH.NS', 1, 0])
+2026-02-14 23:28:58 [INFO] Check complete: 20 stocks
